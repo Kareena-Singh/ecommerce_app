@@ -17,7 +17,6 @@ void main() async {
   await Firebase.initializeApp();
   Get.put(CartController());
   runApp(MyApp());
-  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
