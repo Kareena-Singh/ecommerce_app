@@ -10,6 +10,7 @@ class SignupScreen extends StatefulWidget {
 }
 
 class _SignupScreenState extends State<SignupScreen> {
+
   final AuthService _authService = AuthService();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
@@ -101,6 +102,7 @@ class _SignupScreenState extends State<SignupScreen> {
       ),
     );
   }
+
   void showToast(String message) {
     Fluttertoast.showToast(
       msg: message,

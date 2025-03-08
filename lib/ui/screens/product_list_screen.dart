@@ -9,6 +9,7 @@ class ProductListScreen extends StatefulWidget {
 }
 
 class _ProductListScreenState extends State<ProductListScreen> {
+
   late Future<List<Product>> _productsFuture;
   List<Product> _products = [];
   List<Product> _filteredProducts = [];

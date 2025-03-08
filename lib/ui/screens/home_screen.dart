@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class HomeScreen extends StatelessWidget {
+
   final List<Map<String, dynamic>> womensClothCollection = [
     {"name": "Crimson Bloom Crop Top", "price": "\$590", "oldPrice": "\$690", "image": "assets/images/women1.webp"},
     {"name": "Classic Chic Cardigan", "price": "\$590", "oldPrice": "", "image": "assets/images/women2.webp"},
